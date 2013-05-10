@@ -17,7 +17,7 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Dist-Zilla-PluginBundle-GRS",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Dist::Zilla::PluginBundle::GRS",
   "recommends" => {},

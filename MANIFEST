@@ -6,8 +6,9 @@ META.json
 META.yml
 README
 README.mkdn
+cover_full.txt
+cover_summary.txt
 dist.ini
-gitlab_ci.sh
 lib/Dist/Zilla/PluginBundle/GRS.pm
 lib/Pod/Weaver/PluginBundle/GRS.pm
 t/00-compile.t
