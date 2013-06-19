@@ -6,8 +6,7 @@ META.json
 META.yml
 README
 README.mkdn
-cover_full.txt
-cover_summary.txt
+build.log
 dist.ini
 lib/Dist/Zilla/PluginBundle/GRS.pm
 lib/Pod/Weaver/PluginBundle/GRS.pm

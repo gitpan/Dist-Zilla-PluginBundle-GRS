@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 # ABSTRACT: a bundle that add Bugs section to the Default bundle
-our $VERSION = '0.02';    # VERSION
+our $VERSION = '0.03';    # VERSION
 
 use namespace::autoclean;
 
@@ -61,7 +61,7 @@ Pod::Weaver::PluginBundle::GRS - a bundle that add Bugs section to the Default b
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 OVERVIEW
 

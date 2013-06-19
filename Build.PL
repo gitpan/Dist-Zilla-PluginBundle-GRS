@@ -17,7 +17,7 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Dist-Zilla-PluginBundle-GRS",
-  "dist_version" => "0.02",
+  "dist_version" => "0.03",
   "license" => "perl",
   "module_name" => "Dist::Zilla::PluginBundle::GRS",
   "recommends" => {},
@@ -39,6 +39,7 @@ my %module_build_args = (
     "Dist::Zilla::Plugin::Prepender" => 0,
     "Dist::Zilla::Plugin::Prereqs" => 0,
     "Dist::Zilla::Plugin::PruneFiles" => 0,
+    "Dist::Zilla::Plugin::ReadmeMarkdownFromPod" => 0,
     "Dist::Zilla::Plugin::ReportVersions" => 0,
     "Dist::Zilla::Plugin::Test::Compile" => 0,
     "Dist::Zilla::Plugin::Test::Perl::Critic" => 0,

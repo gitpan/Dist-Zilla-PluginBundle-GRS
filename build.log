@@ -1,0 +1,73 @@
+building test distribution under .build/NMweaRmUiY
+[DZ] beginning to build Dist-Zilla-PluginBundle-GRS
+[DZ] guessing dist's main_module is lib/Dist/Zilla/PluginBundle/GRS.pm
+[DZ] extracting distribution abstract from lib/Dist/Zilla/PluginBundle/GRS.pm
+[@GRS/@Filter/ExtraTests] rewriting release test xt/release/unused-vars.t
+[@GRS/@Filter/ExtraTests] rewriting release test xt/release/pod-coverage.t
+[@GRS/@Filter/ExtraTests] rewriting author test xt/author/critic.t
+[DZ] writing Dist-Zilla-PluginBundle-GRS in .build/NMweaRmUiY
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Dist-Zilla-PluginBundle-GRS' version '0.03'
+Building Dist-Zilla-PluginBundle-GRS
+t/00-compile.t ............ ok
+# Testing with Perl 5.016003, /home/gitlab_ci/perl5/perlbrew/perls/perl-5.16.3/bin/perl
+#     Carp version is 1.26
+#     Class::MOP version is 2.0802
+#     Dist::Zilla::App::Command::cover version is 1.101001
+#     Dist::Zilla::Plugin::AutoPrereqs version is 4.300034
+#     Dist::Zilla::Plugin::MetaConfig version is 4.300034
+#     Dist::Zilla::Plugin::MetaJSON version is 4.300034
+#     Dist::Zilla::Plugin::MetaResourcesFromGit version is 1.103620
+#     Dist::Zilla::Plugin::MinimumPerl version is 1.003
+#     Dist::Zilla::Plugin::ModuleBuild version is 4.300034
+#     Dist::Zilla::Plugin::OurPkgVersion version is 0.004000
+#     Dist::Zilla::Plugin::PerlTidy version is 0.13
+#     Dist::Zilla::Plugin::PodCoverageTests version is 4.300034
+#     Dist::Zilla::Plugin::PodWeaver version is 3.101641
+#     Dist::Zilla::Plugin::Prepender version is 1.112280
+#     Dist::Zilla::Plugin::Prereqs version is 4.300034
+#     Dist::Zilla::Plugin::PruneFiles version is 4.300034
+#     Dist::Zilla::Plugin::ReadmeMarkdownFromPod version is 0.120120
+#     Dist::Zilla::Plugin::ReportVersions version is 1.110730
+#     Dist::Zilla::Plugin::Test::Compile version is 2.002
+#     Dist::Zilla::Plugin::Test::Perl::Critic version is 2.112410
+#     Dist::Zilla::Plugin::Test::UnusedVars version is 2.000004
+#     Dist::Zilla::PluginBundle::Filter version is 4.300034
+#     Dist::Zilla::Role::PluginBundle::Easy version is 4.300034
+#     Dist::Zilla::Role::PluginBundle::PluginRemover version is 0.102
+#     File::Find version is 1.20
+#     File::Temp version is 0.22
+#     IO::All version is 0.46
+#     Module::Build version is 0.4005
+#     Moose version is 2.0802
+#     Pod::Coverage::TrustPod version is 0.100002
+#     Pod::Weaver::Config::Assembler version is 3.101638
+#     Scalar::Util version is 1.25
+#     Test::More version is 0.98
+#     Test::Perl::Critic version is 1.02
+#     namespace::autoclean version is 0.13
+#     strict version is 1.07
+#     warnings version is 1.13
+t/000-report-versions.t ... ok
+t/author-critic.t ......... ok
+t/release-pod-coverage.t .. ok
+t/release-unused-vars.t ... ok
+All tests successful.
+Files=5, Tests=45, 16 wallclock secs ( 0.02 usr  0.02 sys + 15.76 cusr  0.50 csys = 16.30 CPU)
+Result: PASS
+cover
+Reading database from /home/gitlab_ci/repositories/celogeek/perl-modules-dist-zilla-pluginbundle-author-grs/.build/NMweaRmUiY/cover_db
+
+
+---------------------------- ------ ------ ------ ------ ------ ------ ------
+File                           stmt   bran   cond    sub    pod   time  total
+---------------------------- ------ ------ ------ ------ ------ ------ ------
+...Zilla/PluginBundle/GRS.pm   41.4    0.0    n/a   66.7  100.0   45.9   38.3
+...eaver/PluginBundle/GRS.pm   80.0    n/a    n/a   66.7  100.0   54.1   77.3
+Total                          54.5    0.0    n/a   66.7  100.0  100.0   50.7
+---------------------------- ------ ------ ------ ------ ------ ------ ------
+
+
+HTML output written to /home/gitlab_ci/repositories/celogeek/perl-modules-dist-zilla-pluginbundle-author-grs/.build/NMweaRmUiY/cover_db/coverage.html
+done.
+leaving .build/NMweaRmUiY intact
