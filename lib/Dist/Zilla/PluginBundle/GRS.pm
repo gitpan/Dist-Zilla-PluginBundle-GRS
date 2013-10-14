@@ -13,7 +13,7 @@ package Dist::Zilla::PluginBundle::GRS;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';    # VERSION
+our $VERSION = '0.04';    # VERSION
 
 use Moose;
 use Class::MOP;
@@ -98,6 +98,7 @@ sub configure {
         [ 'PodWeaver'          => { 'config_plugin' => '@GRS' } ],
         [ 'PerlTidy'           => { 'perltidyrc'    => 'xt/perltidy.rc' } ],
         [ 'Test::Perl::Critic' => { 'critic_config' => 'xt/perlcritic.rc' } ],
+        ['Test::Kwalitee::Extra'],
     );
 
     return;
@@ -115,7 +116,7 @@ Dist::Zilla::PluginBundle::GRS - Dist::Zilla like GRS
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 OVERVIEW
 
@@ -148,6 +149,7 @@ This is the bundle for GRS (Git Redmine Suite), and is equivalent to create this
   perltidyrc = xt/perltidy.rc
   [Test::Perl::Critic]
   critic_config = xt/perlcritic.rc
+  [Test::Kwalitee::Extra]
 
 It also install :
 
