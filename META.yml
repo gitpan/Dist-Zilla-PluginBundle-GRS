@@ -47,7 +47,6 @@ requires:
   Dist::Zilla::Role::PluginBundle::Easy: 0
   Dist::Zilla::Role::PluginBundle::PluginRemover: 0
   IO::All: 0.45
-  List::AllUtils: 0
   Moose: 0
   Pod::Coverage::TrustPod: 0
   Pod::Weaver::Config::Assembler: 0
@@ -61,7 +60,7 @@ resources:
   bugtracker: https://tasks.celogeek.com/projects/perl-modules-dist-zilla-pluginbundle-grs
   homepage: https://tasks.celogeek.com/projects/perl-modules-dist-zilla-pluginbundle-grs
   repository: https://github.com/celogeek/Dist-Zilla-PluginBundle-GRS.git
-version: 0.05
+version: 0.06
 x_Dist_Zilla:
   perl:
     version: 5.018001
