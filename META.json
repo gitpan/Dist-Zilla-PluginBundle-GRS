@@ -62,6 +62,7 @@
             "Pod::Coverage::TrustPod" : "0",
             "Pod::Weaver::Config::Assembler" : "0",
             "Test::Perl::Critic" : "0",
+            "Test::Pod" : "1.48",
             "Test::Pod::Coverage" : "1.08",
             "namespace::autoclean" : "0",
             "perl" : "5.006",
@@ -93,7 +94,7 @@
          "web" : "https://github.com/celogeek/Dist-Zilla-PluginBundle-GRS"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018001"

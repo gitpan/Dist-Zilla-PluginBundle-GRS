@@ -13,7 +13,7 @@ package Dist::Zilla::PluginBundle::GRS;
 use strict;
 use warnings;
 
-our $VERSION = '0.06';    # VERSION
+our $VERSION = '0.07';    # VERSION
 
 use Moose;
 use Class::MOP;
@@ -116,7 +116,7 @@ Dist::Zilla::PluginBundle::GRS - Dist::Zilla like GRS
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 OVERVIEW
 

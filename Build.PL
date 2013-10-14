@@ -17,7 +17,7 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Dist-Zilla-PluginBundle-GRS",
-  "dist_version" => "0.06",
+  "dist_version" => "0.07",
   "license" => "perl",
   "module_name" => "Dist::Zilla::PluginBundle::GRS",
   "recommends" => {},
@@ -53,6 +53,7 @@ my %module_build_args = (
     "Pod::Coverage::TrustPod" => 0,
     "Pod::Weaver::Config::Assembler" => 0,
     "Test::Perl::Critic" => 0,
+    "Test::Pod" => "1.48",
     "Test::Pod::Coverage" => "1.08",
     "namespace::autoclean" => 0,
     "perl" => "5.006",
