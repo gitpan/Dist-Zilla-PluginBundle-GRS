@@ -47,6 +47,7 @@ requires:
   Dist::Zilla::Role::PluginBundle::Easy: 0
   Dist::Zilla::Role::PluginBundle::PluginRemover: 0
   IO::All: 0.45
+  List::AllUtils: 0
   Moose: 0
   Pod::Coverage::TrustPod: 0
   Pod::Weaver::Config::Assembler: 0
@@ -60,7 +61,7 @@ resources:
   bugtracker: https://tasks.celogeek.com/projects/perl-modules-dist-zilla-pluginbundle-grs
   homepage: https://tasks.celogeek.com/projects/perl-modules-dist-zilla-pluginbundle-grs
   repository: https://github.com/celogeek/Dist-Zilla-PluginBundle-GRS.git
-version: 0.04
+version: 0.05
 x_Dist_Zilla:
   perl:
     version: 5.018001
@@ -124,7 +125,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::OurPkgVersion
       name: '@GRS/OurPkgVersion'
-      version: 0.004000
+      version: 0.005000
     -
       class: Dist::Zilla::Plugin::Prepender
       name: '@GRS/Prepender'
@@ -149,12 +150,13 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Test::Compile
       config:
         Dist::Zilla::Plugin::Test::Compile:
+          filename: t/00-compile.t
           module_finder:
             - ':InstallModules'
           script_finder:
             - ':ExecFiles'
       name: '@GRS/Test::Compile'
-      version: 2.021
+      version: 2.036
     -
       class: Dist::Zilla::Plugin::Test::UnusedVars
       name: '@GRS/Test::UnusedVars'
@@ -185,8 +187,14 @@ x_Dist_Zilla:
       version: 4.300039
     -
       class: Dist::Zilla::Plugin::PodWeaver
+      config:
+        Dist::Zilla::Plugin::PodWeaver:
+          config_plugin: '@GRS'
+          finder:
+            - ':InstallModules'
+            - ':ExecFiles'
       name: '@GRS/PodWeaver'
-      version: 3.101642
+      version: 3.102000
     -
       class: Dist::Zilla::Plugin::PerlTidy
       name: '@GRS/PerlTidy'
