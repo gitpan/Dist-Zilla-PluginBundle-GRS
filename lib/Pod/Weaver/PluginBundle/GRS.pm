@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 # ABSTRACT: a bundle that add Bugs section to the Default bundle
-our $VERSION = '0.07';    # VERSION
+our $VERSION = '0.08';    # VERSION
 
 use namespace::autoclean;
 
@@ -30,8 +30,8 @@ sub mvp_bundle_config {
         [ '@Default/Version',  _exp('Version'),   {} ],
 
         [ '@Default/prelude', _exp('Region'),  { region_name => 'prelude' } ],
-        [ 'SYNOPSIS',         _exp('Generic'), {} ],
         [ 'DESCRIPTION',      _exp('Generic'), {} ],
+        [ 'SYNOPSIS',         _exp('Generic'), {} ],
         [ 'OVERVIEW',         _exp('Generic'), {} ],
 
         [ 'ATTRIBUTES', _exp('Collect'), { command => 'attr' } ],
@@ -61,7 +61,7 @@ Pod::Weaver::PluginBundle::GRS - a bundle that add Bugs section to the Default b
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 OVERVIEW
 
@@ -74,8 +74,8 @@ This bundle is equivalent to : (default + Bugs section)
 
   [Region  / prelude]
 
-  [Generic / SYNOPSIS]
   [Generic / DESCRIPTION]
+  [Generic / SYNOPSIS]
   [Generic / OVERVIEW]
 
   [Collect / ATTRIBUTES]

@@ -4,7 +4,7 @@ Dist::Zilla::PluginBundle::GRS - Dist::Zilla like GRS
 
 # VERSION
 
-version 0.07
+version 0.08
 
 # OVERVIEW
 
